@@ -1,5 +1,15 @@
 {
-"extraBabelPlugins": [
-  ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
-  ],
+  "entry": "src/index.js",
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+	["import", { "libraryName": "antd", "style": "css" }]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+      ]
+    }
+  }
 }
