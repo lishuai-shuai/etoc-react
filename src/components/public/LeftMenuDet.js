@@ -13,8 +13,8 @@ class LeftMenuDet extends React.Component {
   }
   render() {
     return (
-      <div style={{ width: 256 }}>
-        <Button type="primary" onClick={this.toggleCollapsed} style={{ marginBottom: 16 }}>
+      <div style={{ width: 220,backgroundColor:'#001529',height:700,float:'left'}}>
+        <Button type="primary" onClick={this.toggleCollapsed} style={{ marginBottom: 16,display:'none' }}>
           <Icon type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'} />
         </Button>
         <Menu
