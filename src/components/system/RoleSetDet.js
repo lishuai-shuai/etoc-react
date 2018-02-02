@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout, Menu, Icon } from 'antd';
 import HeadDet from '../public/HeadDet';
 import LeftMenuDet from '../public/LeftMenuDet';
-import { Table,  Divider } from 'antd';
+import { Table,  Divider ,Pagination} from 'antd';
 const { Column, ColumnGroup } = Table;
 
 
