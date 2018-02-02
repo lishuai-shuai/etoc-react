@@ -1,0 +1,39 @@
+
+
+
+/*公共样式按钮*/
+.pub-a{display:inline-block;height:40px;line-height:40px;padding:0 14px;text-align:center;font-size:12px;color:#fff;transition:all 300ms linear 0ms;}
+.pub-a-sml{height:28px;line-height:28px;padding:0 4px;border-radius:2px;}
+.pub-a-mid{height:30px;line-height:30px;font-size:12px;}
+.green-a{background-color:#16B200;}
+.orange-a{background-color:#F2B800;}
+.red-a{background-color:#D9534F;}
+.blue-a{background-color:#5182E4;}
+.gray-a{}
+.tra-a{color:#333;border:1px solid #ccc;}
+.green-a:active,.red-a:active{opacity:0.6;}
+.pub-a [class*="icon-"]{font-size:100%;}
+.pub-a:hover{opacity:0.8;color:#fff;}
+.pub-a .anticon{margin-right:2px;font-size:13px;}
+
+/*input和select*/
+.pub-sel{border:1px solid #DFDFDF;height:24px;font-size:12px;padding:0 4px;}
+/*input和select end*/
+
+/*距离补丁*/
+.ml5{margin-left:5px !important;}
+.mr5{margin-right:5px !important;}
+.mt5{margin-top:5px !important;}
+.mb5{margin-bottom:5px !important;}
+.ml10{margin-left:10px !important;}
+.mr10{margin-right:10px !important;}
+.mt10{margin-top:10px !important;}
+.mb10{margin-bottom:10px !important;}
+.mt20{margin-top:20px !important;}
+.pt20{padding-top:20px !important;}
+/*距离补丁end*/
+
+
+
+
+
